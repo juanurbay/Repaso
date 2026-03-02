@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>DevJobs</title>
+</head>
+
+<style>
+    body{
+        font-family: "Inter", sans-serif;
+    }
+</style>
+<body>
+    <header>
+        <!--Primera tabla-->
+        <table width="100%">
+            <tr>
+                <!--Palabra DevJobs-->
+                <td style="color: rgb(75, 75, 247);"><h1> <i class="bi bi-code-slash"></i> DevJobs</h1></td>
+
+                <!--Letras al lado derecho-->
+                <td style="align-items: end;">
+                    <nav>
+                        <a href="" style="color: darkgray; text-decoration: none;">Empresas</a>
+                        <a href="" style="color: darkgray; text-decoration: none;">Blog</a>
+                        <a href="" style="color: darkgray; text-decoration: none;">Login</a>
+                    </nav>
+                </td>
+            </thead>
+        </table>
+        <hr style="color: rgb(75, 75, 247);">
+    </header>
+
+     <label style="text-align: center;">Encuentra tu primer empleo TI</label>
+     <br>
+     <p>Ofertas exclusivas para Juniors y Trainees en Perú</p>
+
+    <input type="texto" placeholder="Ej. Desarrollador Java" required
+        oninvalid="this.setCustomValidity('Ingrese su nombre por favor')">
+
+        <!--BOTTTON BUSCAR-->
+        <button><i class="bi bi-search"></i> Buscar</button>
+
+    <hr>
+    <p>
+        <i class="bi bi-briefcase"></i> <b>Ultimas Ofertas Publicadas</b>
+    </p>
+    <main>
+        <table  border="1" >
+            <thead style="background-color: dodgerblue;
+                    color: aliceblue;">
+                <th>Fecha</th>
+                <th>Puesto</th>
+                <th>Empresa</th>
+                <th>Modalidad</th>
+                <th>Acción</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Hace 2h</td>
+                    <td>
+                        <b>Frontend Developer Trainee</b>
+                        <br>
+                        HTML, CSS, JavaScript
+                    </td>
+                    <td>TechSolutions SAC</td>
+                    <td>🏠 Remoto</td>
+                    <td><a href="fichaPostulacion.html" style="text-decoration: none;
+                            background-color: darkgreen;
+                            border-radius: 2px; padding: 2px 5px;
+                            cursor: pointer;
+                            color: aliceblue;" >Aplicar</a></td>
+                </tr>
+
+                <!--Segunda Fila-->
+                <tr>
+                    <td>Ayer</td>
+                    <td>
+                        <b>Soporte Técnico L1</b>
+                        <br>
+                        Mantenimiento de PC y Redes
+                    </td>
+                    <td>Banco BCP</td>
+                    <td>🏢 Presencial</td>
+                    <td><a href="fichaPostulacion.html" style="text-decoration: none;
+                            background-color: darkgreen;
+                            border-radius: 2px; padding: 2px 5px;
+                            color: aliceblue;" >Aplicar</a></td>
+                </tr>
+
+                <!--Tercera Fila-->
+                <tr>
+                    <td>Hace 2 días</td>
+                    <td>
+                        <b>Practicante.NET / C#</b>
+                        <br>
+                        SQL Server y Visual Studio
+                    </td>
+                    <td>TechSolutions SAC</td>
+                    <td>🏠 Hibrido</td>
+                    <td><a href="fichaPostulacion.html" style="text-decoration: none;
+                            background-color: darkgreen;
+                            border-radius: 2px; padding: 2px 5px;
+                            color: aliceblue;" >Aplicar</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
